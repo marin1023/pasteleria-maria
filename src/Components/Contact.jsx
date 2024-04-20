@@ -26,8 +26,8 @@ const Contact = () => {
         <h2>Siguenos en nuestras Redes Sociales</h2>
       <div className='box-redes' >
          <a href="#" className='social'><FaFacebook /> Facebook</a>
-         <a href="#" className='social'><FaInstagramSquare />Instagram</a>
-         <a href="#" className='social'><FaSquareXTwitter />Twitter</a>
+         <a href="#" className='social'><FaInstagramSquare /> Instagram</a>
+         <a href="#" className='social'><FaSquareXTwitter /> Twitter</a>
       </div>
        </div>
     </>
