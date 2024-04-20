@@ -1,0 +1,210 @@
+/* dieño de barra de navegacion */
+.navBg {
+    background-color: #F592B9;
+}
+
+.letranav {
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+
+}
+
+.nav-link {
+    color: #4B2836 !important;
+}
+
+.nav-brand {
+    color: #4B2836 !important;
+}
+
+
+
+img {
+    max-width: 90%;
+}
+
+/* diseño de inicio-home */
+
+.texto-bienvenida {
+    text-align: center;
+    font-family: "Shrikhand", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #4B2836;
+}
+.img-pp {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 15px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.img1 {
+   max-width: 45%;
+
+}
+
+.img2 {
+    max-width: 45%;
+}
+
+.parrafo1 {
+    display: flex;
+    justify-content: center;
+    padding: 20px 10px 10px 10px;
+    background-color: #F592B9;
+    color: #4B2836;
+    text-align: center;
+    font-family: "Calistoga", serif;
+    font-weight: 400;
+    font-style: normal;
+    width: auto;
+    font-size: 40px;
+    height: auto;
+}
+/* clases de diseño de nuestros productos */
+
+.lista-productos > * {
+    box-shadow: 10px 6px 37px -13px rgb(51, 51, 51, 0.74);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    font-weight: 500;
+    margin: 20px;
+}
+
+.lista-productos {
+    display: grid;
+    gap: 120px;
+    grid-template-columns: repeat( auto-fit, minmax(min(100%, 22rem), 150px));
+    margin: 100px 40px 10px 100px ;
+    
+}
+
+.img-producto {
+    max-width: 100%;
+}
+
+.h1-producto {
+    text-align: center;
+    color: rgb(47, 47, 48);
+    margin-bottom: 30px;
+    margin-top: 40px;
+    font-family: "Calistoga", serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.boton-orden {
+    margin-top: 30px;
+}
+
+/* ClASAES CONTACTO */
+
+.titulo-redes {
+    text-align: center;
+    font-family: "Shrikhand", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #4B2836;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+}
+
+.imgcontacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.h1contacto {
+    font-size: 33px;
+    font-family: "Calistoga", serif;
+    font-weight: 200;
+    font-style: normal;
+    text-align: center;
+    color: #4B2836;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.texto-equipo {
+    display: flex;
+   justify-content: center;
+   background-color: #F2BBD3;
+   padding: 50px;
+   margin-bottom: 40px;
+   max-width: 100%;
+   align-items: center;
+   flex-direction: column-reverse;
+   
+}
+
+
+
+.box-redes h2 {
+    width: 100%;
+    color: #4B2836;
+    font-size: 50px;
+    font-family: "Calistoga", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.box-redes {
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    text-align: center;    
+    flex-direction: column;
+    background-color: #F592B9;
+}
+
+.social {
+    text-decoration: none;
+    font-size: 25px;
+    color: #4B2836;
+    padding: 10px;
+}
+
+/* clases del footer */
+
+.contenedor-footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.socialf {
+    text-decoration: none;
+    font-size: 25px;
+    color: #4B2836;
+    padding: 10px;
+}
+
+.boxenlace {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+}
+
+.contenedor-footer h2 {
+     text-align: center;
+}
+
+.parrafo-footer {
+    margin-top: 30px;
+}
