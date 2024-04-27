@@ -74,13 +74,15 @@ img {
     text-align: center;
     font-weight: 500;
     margin: 20px;
+    background-position: center center;
 }
 
 .lista-productos {
     display: grid;
     gap: 120px;
     grid-template-columns: repeat( auto-fit, minmax(min(100%, 22rem), 150px));
-    margin: 100px 40px 10px 100px ;
+    margin: 0 auto ;
+    justify-content: center;
     
 }
 
